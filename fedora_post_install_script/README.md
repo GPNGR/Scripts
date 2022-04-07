@@ -6,7 +6,7 @@ After installing minimal Fedora, log in to your user account.
 
 ```shell
 sudo dnf isntall -y wget
-wget "https://raw.githubusercontent.com/GPNGR/Scripts/main/fedora_post_install_script/install.sh" -O ./install.sh && chmod =x ./install.sh
+wget "https://raw.githubusercontent.com/GPNGR/Scripts/main/fedora_post_install_script/install.sh" -O ./install.sh && chmod +x ./install.sh
 ./install.sh
 ```
 
