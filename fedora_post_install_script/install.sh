@@ -150,7 +150,7 @@ function install_applications() {
         exit 1
     }
 
-    if ! sudo cp wtfutil /usr/local/wtfutil; then
+    if ! sudo cp wtfutil /usr/local/bin/wtfutil; then
         echo "${RED}Failed copying wtfutil${RESET}"
         exit 1
     else
