@@ -88,7 +88,7 @@ function install_applications() {
             ripgrep \
             exa \
             bat \
-            rust-fd-find \
+            fd-find \
             fish \
             starship \
             neovim \
